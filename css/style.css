@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+.header {
+    margin-top: 32px;
+    background-color: #EDF1F3;
+    height: 80px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_ready {
+    font-family: "Raleway", sans-serif;
+}
+.header p {
+    font-size: 17px;
+    font-weight: 400;
+}
+.header_services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 78px;
+}
+.header_services p {
+    font-family: "Raleway", sans-serif;
+}
+.header_job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 132px;
+}
+.header_job p {
+    font-family: "Raleway", sans-serif;
+}
+.header_company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 119px;
+}
+.header_company p {
+    font-family: "Raleway", sans-serif;
+}
+.phone {
+    background-color: #046FB3;
+    border-radius: 32px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    width: 222px;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.phone p {
+    color: white;
+    font-size: 18px;
+}
+.services {
+    margin-top: 40px;
+    background-color: #EDF2F5;
+    height: 447px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services_towtruck-text {
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services_towtruck-text-h {
+    width: 634px;
+    font-size: 44px;
+    font-weight: 700;
+}
+.services_towtruck-text-h>span {
+    color: #046FB3;
+}
+.services_towtruck-text-l {
+    font-size: 24px;
+    font-weight: 400;
+}
+.services img {
+    margin-top: 24px;
+    width: 462px;
+    height: 399px;
+}
+.services_phone {
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.services_input {
+    width: 594px;
+    display: flex;
+    justify-content: space-between;
+}
+.services_input input {
+    padding-left: 16px;
+    font-size: 16px;
+    width: 359px;
+    height: 48px;
+    border: 1px #D8E9FF solid;
+    border-radius: 6px;
+}
+.services_input button {
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 207px;
+    height: 48px;
+    border: none;
+    background-color: #046FB3;
+    color: white;
+}
+.services_click {
+    width: 392px;
+    font-size: 12px;
+    color: #132B3D;
+}
+.services_towtruck {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

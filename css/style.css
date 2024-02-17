@@ -135,3 +135,131 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.dignities {
+    margin-top: 88px;
+}
+.dignities_p {
+    font-size: 40px;
+    font-weight: 700;
+}
+.dignities_cards {
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    width: 383.68px;
+    height: 232px;
+    border-radius: 16px;
+    background-color: #EDF2F5;
+}
+.dignities_cards2 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.number {
+    margin-top: 24px;
+    width: 45px;
+    height: 35px;
+    border: 1px #046FB3 solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number p {
+    color: #046FB3;
+    font-size: 24px;
+    font-weight: 500;
+}
+.container_card {
+    margin: 0 auto;
+    width: 335.68px;
+}
+.card_flex {
+    height: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_flex2 {
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_flex h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card_flex2 h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card_flex3 {
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_flex3 h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.services_cars {
+    margin: 0 auto;
+    margin-top: 88px;
+    height: 868px;
+    width: 1440px;
+    border-radius: 12px;
+    background-color: #071C2C;
+}
+
+.services_cars-text {
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.services_cars-text p {
+    width: 570px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.services_cars-cadrs {
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+.aaa {
+    width: 384px;
+    height: 103px;
+    background-color: #046FB3;
+    border-radius: 16px;
+}
+.services_cars-cadrs2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.a {
+    width: 384px;
+    height: 103px;
+    background-color: #046FB3;
+    border-radius: 16px;
+}
+.white_card {
+    z-index: 1;
+    position: absolute;
+    width: 384px;
+    height: 147px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    top: 1670px;
+}

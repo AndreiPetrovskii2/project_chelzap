@@ -307,17 +307,17 @@
     background-color: #046FB3;
     border-radius: 16px;
 }
-.container_card {
+.container_card3 {
     width: 294px;
     margin: 0 auto;
 
 }
-.container_card h3 {
+.container_card3 h3 {
     padding-top: 26px;
     font-size: 22px;
     font-weight: 600;
 }
-.container_card p {
+.container_card3 p {
     padding-top: 16px;
     font-size: 16px;
     font-weight: 400;

@@ -651,3 +651,147 @@
     display: flex;
     justify-content: space-between;
 }
+.button_slider {
+    display: flex;
+    justify-content: space-between;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+    width: 112px;
+}
+.buttons_1 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.buttons_2 {
+    background-color: #FFFFFF;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+}
+.reviews_imgs {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.reviews_imgs div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    height: 504px;
+}
+footer {
+    height: 300px;
+    margin-top: 64px;
+}
+.logo {
+    height: 202px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer_adress {
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer_adress p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5F84A0;
+}
+.footer_adress h6 {
+    width: 292px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footer_chelzap-alcon {
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_chelzap {
+    font-size: 16px;
+    font-weight: 500;
+    color: #5F84A0;
+}
+.footer_alcon {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BED0DB;
+}
+.logo img {
+    height: 23px;
+    width: 195px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_variants {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 166px;
+}
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_card1 {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    width: 384px;
+    height: 53px;
+    background-color: #F2F6F9;
+}
+.footer_contacts div img {
+    padding-left: 8px;
+}
+.footer_contacts-inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 41px;
+    padding-left: 16px;
+}
+.footer_contacts-inf h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #046FB3;
+}
+.footer_contacts-inf p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5F84A0;
+}
+.footer_card3 {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    width: 384px;
+    height: 53px;
+    background-color: #F2F6F9;
+}
+.footer_card3 p {
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 500;
+}

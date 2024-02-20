@@ -578,6 +578,7 @@
     font-weight: 500;
 }
 .reviews {
+    transition: all ease 1s;
     overflow: hidden;
     margin-top: 120px;
     height: 1033px;
@@ -592,6 +593,7 @@
     font-weight: 700;
 }
 .reviews_card {
+    transition: all ease 1s;
     width: 384px;
     height: 264px;
     background-color: #FFFFFF;
@@ -672,6 +674,7 @@
     width: 112px;
 }
 .buttons_1 {
+    border-radius: 4px;
     border: none;
     display: flex;
     justify-content: center;
@@ -679,7 +682,11 @@
     width: 48px;
     height: 48px;
 }
+.buttons_1:hover {
+    border: 1px #046FB3 solid;
+}
 .buttons_2 {
+    border-radius: 4px;
     background-color: #FFFFFF;
     border: none;
     display: flex;
@@ -687,6 +694,9 @@
     align-items: center;
     width: 48px;
     height: 48px;
+}
+.buttons_2:hover {
+    border: 1px #046FB3 solid;
 }
 .reviews_imgs {
     margin-top: 56px;
@@ -811,9 +821,24 @@ footer {
     display: flex;
     justify-content: center;
 }
-.popup p{
+.in {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 0px;
     font-size: 14px;
     font-weight: 400;
     color: #046FB3;
+}
+.popup .out {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #046FB3;
+    display: none;
 }

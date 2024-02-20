@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
+<body id="body">
     <header>
         <div class="container">
             <div class="header">
@@ -293,18 +293,18 @@
 
             </div>
         </div>
-        <div class="reviews">
+        <div id="rewiws" class="reviews">
             <div class="container">
                 <div class="reviews_slider">
                     <div class="button_slider">
                         <p>Отзывы довольных клиентов!</p>
                         <div class="buttons">
-                            <button class="buttons_1"><img src="img/vector 6.png" alt=""></button>
-                            <button class="buttons_2"><img src="img/Vector 7.png" alt=""></button>
+                            <button id="left" class="buttons_1"><img src="img/vector 6.png" alt=""></button>
+                            <button id="right" class="buttons_2"><img src="img/Vector 7.png" alt=""></button>
                         </div>
                     </div>
-                    <div class="reviews_cards">
-                        <div class="reviews_card">
+                    <div id="slider" class="reviews_cards">
+                        <div id="card1" class="reviews_card">
                             <div class="reviews_container">
                                 <img src="img/Ellipse 19.png" alt="">
                                 <div class="reviews_text">
@@ -322,8 +322,31 @@
                                 </div>
                             </div>
                             <div class="rewiws_textp">
-                                <p>Год назад открыл маленький бизнес с тремя эвакуаторами. Технику покупал тут, в ООО «Челябинский Завод Переоборудования». 
+                                <p id="card_text">Год назад открыл маленький бизнес с тремя эвакуаторами. Технику покупал тут, в ООО 
+                                    «Челябинский Завод Переоборудования». Эвакуаторы со сдвижной платформой на базе Hyundai HD-78. Техникой очень доволен, 
+                                    машины работают без сбоев, справляются с большой нагрузкой, свою цену оправдывают. Да и расход не такой большой. 
+                                    Хочу отметить сервис компании, техобслуживание проводят быстро, знают все слабые стороны каждой машины.</p>
+                            </div>
+                            <div class="popup">
+                                <p id="popup_text">Читать полностью</p>
+                            </div>
+                        </div>
+                        <div id="card1" class="reviews_card">
+                            <div class="reviews_container">
+                                <img src="img/Ellipse 19.png" alt="">
+                                <div class="reviews_text">
+                                    <p>ООО «Вперед»</p>
+                                    <div class="stars">
+                                        <p>23 апреля 2023 г.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rewiws_textp">
+                                <p id="card_text">Год назад открыл маленький бизнес с тремя эвакуаторами. Технику покупал тут, в ООО «Челябинский Завод Переоборудования». 
                                     Эвакуаторы со сдвижной платформой на базе Hyundai</p>
+                            </div>
+                            <div class="popup">
+                                <p id="popup_text">Читать полностью</p>
                             </div>
                         </div>
                         <div class="reviews_card">
@@ -340,7 +363,7 @@
                                 <p>Год назад открыл маленький бизнес с тремя эвакуаторами. Технику покупал тут, в ООО «Челябинский Завод Переоборудования». 
                                     Эвакуаторы со сдвижной платформой на базе Hyundai</p>
                             </div>
-                        </div>
+                        </div>       
                         <div class="reviews_card">
                             <div class="reviews_container">
                                 <img src="img/Ellipse 19.png" alt="">
@@ -418,4 +441,6 @@
 </body>
 <script src="https://unpkg.com/imask"></script>
 <script src="./js/input_mask.js"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/popup_card.js"></script>
 </html>

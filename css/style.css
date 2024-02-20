@@ -578,6 +578,7 @@
     font-weight: 500;
 }
 .reviews {
+    overflow: hidden;
     margin-top: 120px;
     height: 1033px;
     background-color: #EEF3F6;
@@ -637,18 +638,28 @@
 }
 .rewiws_textp p {
     width: 336px;
+    height: 110px;
     padding-top: 16px;
     font-size: 16px;
     font-weight: 400;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
 }
 .rewiws_textp {
     display: flex;
     justify-content: center;
 }
 .reviews_cards {
+    width: 1610px;
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
 }
 .button_slider {
     display: flex;
@@ -793,4 +804,16 @@ footer {
     padding-left: 16px;
     font-size: 20px;
     font-weight: 500;
+}
+.popup {
+    cursor: pointer;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.popup p{
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #046FB3;
 }

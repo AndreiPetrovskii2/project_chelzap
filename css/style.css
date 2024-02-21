@@ -161,6 +161,7 @@
     flex-wrap: wrap;
 }
 .card {
+    margin-top: 24px;
     width: 383.68px;
     height: 232px;
     border-radius: 16px;
@@ -245,7 +246,7 @@
     font-weight: 700;
 }
 .services_cars-cadrs {
-    margin-top: 72px;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
@@ -262,7 +263,20 @@
     background-color: #FFFFFF;
     border-radius: 10px;
 }
+.blue_card4 {
+    margin-top: 72px;
+    position: relative;
+    width: 384px;
+    height: 103px;
+    background-color: #046FB3;
+    border-radius: 16px;
+}
+.blue_card4 img {
+    position: absolute;
+    bottom: 0px;
+}
 .blue_card1 {
+    margin-top: 72px;
     position: relative;
     width: 384px;
     height: 103px;
@@ -283,6 +297,7 @@
     bottom: 0px;
 }
 .blue_card2 {
+    margin-top: 215px;
     position: relative;
     width: 384px;
     height: 103px;
@@ -313,6 +328,7 @@
     width: 102px;
 }
 .blue_card3 {
+    margin-top: 215px;
     position: relative;
     width: 384px;
     height: 103px;
@@ -455,6 +471,8 @@
     flex-direction: column;
 }
 .cars_cards-first {
+    grid-gap: 200px 0px;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
@@ -841,4 +859,137 @@ footer {
     font-weight: 400;
     color: #046FB3;
     display: none;
+}
+
+/*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
+@media (max-width:768px){
+    .container {
+        width: 688px;
+    }
+    .header_ready {
+        display: none;
+    }
+    .header_services {
+        display: none;
+    }
+    .header_job {
+        display: none;
+    }
+    .header_company {
+        display: none;
+    }
+    .services img {
+        display: none;
+    }
+    .card {
+        width: 336px;
+        flex-wrap: wrap;
+    }
+    .services_cars {
+        width: 100%;
+    }
+    .blue_card1 {
+        width: 332px;
+    }
+    .white_card1 {
+        width: 332px;
+    }
+    .blue_card2 {
+        width: 332px;
+    }
+    .white_card2 {
+        width: 332px;
+    }
+    .blue_card3 {
+        width: 332px;
+    }
+    .services_cars {
+        height: 1132px;
+    }
+    .blue_card4 {
+        margin-top: 215px;
+        width: 332px;
+    }
+    .blue_card1 img {
+        width: 300px;
+        bottom: 10px;
+    }
+    .blue_card2 img {
+        width: 300px;
+        bottom: 10px;
+    }
+    .blue_card4 img {
+        width: 300px;
+        bottom: 10px;
+    }
+    .card_price {
+        left: 180px;
+    }
+    .container_card {
+        width: 288px;
+    }
+    .order_man {
+        display: none;
+    }
+    .order_car {
+        width: 688px;
+    }
+    .order_inputs input {
+        width: 198.5px;
+    }
+    .cars_cards-blue {
+        width: 213.33px;
+    }
+    .cars_cards-blue2 {
+        width: 213.33px;
+    }
+    .cars_cards-blue3 {
+        width: 213.33px;
+    }
+    .cars_cards-blue4 {
+        width: 213.33px;
+    }
+    .cars_cards-blue5 {
+        width: 213.33px;
+    }
+    .cars_cards-white {
+        width: 213.33px;
+    }
+    .cars_cards-white3 {
+        width: 213.33px;
+    }
+    .cars_cards-white4 {
+        width: 213.33px;
+    }
+    .cars_cards-blue2 img {
+        width: 213px;
+    }
+    .cars_cards-blue img {
+        width: 213px;
+    }
+    .cars_cards-blue3 img {
+        width: 213px;
+    }
+    .cars_cards-blue4 img {
+        width: 213px;
+    }
+    .cars_cards-blue5 img {
+        width: 213px;
+    }
+    .cars {
+        height: 1052px;
+    }
+    .cars_container h3 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .cars_container {
+        width: 181.33px;
+    }
+    .order_text {
+        width: 100%;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
 }

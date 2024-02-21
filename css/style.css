@@ -860,9 +860,22 @@ footer {
     color: #046FB3;
     display: none;
 }
+.img_frame {
+    display: none;
+}
 
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 @media (max-width:768px){
+    .img_frame img {
+        width: 100%;
+    }
+    .container_card2 {
+        width: 100%;
+    }
+    .container_card2 h3 {
+        width: 306px;
+        font-size: 20px;
+    }
     .container {
         width: 688px;
     }
@@ -962,19 +975,19 @@ footer {
         width: 213.33px;
     }
     .cars_cards-blue2 img {
-        width: 213px;
+        width: 200px;
     }
     .cars_cards-blue img {
-        width: 213px;
+        width: 200px;
     }
     .cars_cards-blue3 img {
-        width: 213px;
+        width: 200px;
     }
     .cars_cards-blue4 img {
-        width: 213px;
+        width: 200px;
     }
     .cars_cards-blue5 img {
-        width: 213px;
+        width: 200px;
     }
     .cars {
         height: 1052px;
@@ -991,5 +1004,145 @@ footer {
     }
     .footer {
         flex-wrap: wrap;
+    }
+    .img444 {
+        display: none;
+    }
+}
+@media (max-width:1445px){
+    .services_cars {
+        height: 1132px;
+    }
+    .container{
+        width: 100%;
+    }
+    .services_cars {
+        width: 100%;
+    }
+}
+@media (max-width:1221px){
+    .order_text {
+        width: 100%;
+    }
+    .order_man {
+        display: none;
+    }
+    .order_car {
+        display: none;
+    }
+}
+@media (max-width:1172px) {
+    .services_cars {
+        width: 100%;
+    }
+    .blue_card4 {
+        margin-top: 215px;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1115px) {
+    .img_frame {
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    .services img {
+        display: none;
+    }
+    .cars_cards-blue img {
+        width: 189px;
+    }
+}
+@media (max-width:688px) {
+    .dignities_cards {
+        justify-content: center;
+    }
+}
+@media (max-width:680px) {
+    .services_cars-cadrs{
+        justify-content: center;
+    }
+    .services_cars {
+        height: 2103px;
+    }
+    .blue_card1 {
+        margin-top: 167px;
+        width: 332px;
+    }
+}
+@media (max-width:657px)  {
+    .order_text h2 {
+        width: 100%;
+    }
+    .services_towtruck-text-h {
+        width: 100%;
+    }
+    .cars {
+        height: 1570px;
+    }
+}
+@media (max-width:526px){
+    .order {
+        height: 350px;
+    }
+    .order_text h2 {
+        text-align: center;
+    }
+    .order_inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .order_text p {
+        text-align: center;
+    }
+}
+@media (max-width:430px) {
+    .services_click {
+        width: 100%;
+    }
+    .services_towtruck {
+        width: 100%;
+    }
+    .services_towtruck-text-h {
+        font-size: 25px;
+    }
+}
+@media (max-width:608px) {
+    .services {
+        height: 544px;
+    }
+}
+@media (max-width:400px) {
+    .services_cut input {
+        width: 190px;
+    }
+}
+@media (max-width:371px) {
+    .order {
+        height: 371px;
+    }
+}
+@media (max-width:532px) {
+    .services_cars {
+        height: 2167px;
+    }
+}
+@media (max-width:443px){
+    .cars { 
+        height: 3326px
+    }
+}
+@media (max-width:402px) {
+    .footer_card1 {
+        width: 100%;
+    }
+    .footer_card2 {
+        width: 100%;
+    }
+    .footer_card3 {
+        width: 100%;
     }
 }

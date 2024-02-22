@@ -11,12 +11,44 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="icon" href="img/Favicon.png" type="image/x-icon">
+    <title>ЧелЗаП</title>
 </head>
 <body id="body">
     <header>
         <div class="container">
-            <div class="header">
+            <div id="second_header" class="second_header">
+                <div class="header2">
+                    <div class="logo_2">
+                        <img class="img_1" src="img/ChelzapLogo.png" alt="">
+                        <img id="close_btn" class="img_2"src="img/menu close.png" alt="">
+                    </div>
+                    <div class="footer_variants2">
+                        <p>Готовое оборудование</p>
+                        <p>Услуги <img src="img/123123.png" alt=""></p>
+                        <p>Наши работы <img src="img/123123.png" alt=""></p>
+                        <p>О компании <img src="img/123123.png" alt=""></p>
+                    </div>
+                    <div class="phone2">
+                        <img src="img/color.png" alt="">
+                        <p>+7 (351) 269-63-63</p>
+                    </div>
+                    <div class="footer_contacts2">
+                        <div class="footer_card1">
+                            <img src="img/🔵 PhoneCall.png" alt="">
+                            <div class="footer_contacts-inf">
+                                <h2>Пн-Пт - 9:00-18:00</h2>
+                                <p>без выходных</p>
+                            </div>
+                        </div>
+                        <div class="footer_card3">
+                            <img src="img/phone.png" alt="">
+                            <p>Написать в WhatsApp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="first_header" class="header">
                 <img src="img/ChelzapLogo.png" alt="">
                 <p class="header_ready">Готовое оборудование</p>
                 <div class="header_services">
@@ -35,10 +67,15 @@
                     <img src="img/color.png" alt="">
                     <p>+7 (351) 269-63-63</p>
                 </div>
+                <div id="drop_down" class="drop-down">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
             </div>
         </div>
     </header>
-    <main>
+    <main id="main">
         <div class="container">
             <div class="services">
                 <div class="services_towtruck">
@@ -55,17 +92,23 @@
                            <p>Нажимая на кнопку «Заказать звонок», вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности.</p>
                         </div>
                     </div>
+                    <div class="ring">
+                        
+                    </div>
                 </div>
                 <img src="img/Frame 1321314873.png" alt="">
             </div>
             <div class="img_frame">
                 <img src="img/frame2.png" alt="">
             </div>
+            <div class="img_frame320px">
+                <img src="img/320px.png" alt="">
+            </div>
         </div>
         <div class="container">
             <div class="dignities">
                 <p class="dignities_p">Удобство, Надежность, Эффективность</p>
-                <div class="dignities_cards">
+                <div id="dignities_cards" class="dignities_cards">
                     <div class="card">
                         <div class="container_card">
                             <div class="card_flex">
@@ -437,6 +480,7 @@
         </div>
     </footer>
 </body>
+<script src="./js/drop_window.js"></script>
 <script src="https://unpkg.com/imask"></script>
 <script src="./js/input_mask.js"></script>
 <script src="./js/slider.js"></script>

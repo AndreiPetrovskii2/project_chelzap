@@ -8,6 +8,65 @@
     margin: 0 auto;
     width: 1200px;
 }
+.second_header {
+    display: none;
+}
+.header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 532px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.logo_2 {
+    width: 100%;
+    margin-top: 32px;
+    background-color: #EDF1F3;
+    height: 80px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_1 {
+    padding-left: 32px;
+}
+.img_2 {
+    cursor: pointer;
+    padding-right: 32px;
+}
+.footer_variants2 {
+    width: 420px;
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 166px;
+}
+.footer_contacts2 {
+    margin-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.phone2 {
+    margin-top: 48px;
+    background-color: #046FB3;
+    border-radius: 32px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    width: 222px;
+    height: 36px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.phone2 p {
+    color: white;
+    font-size: 18px;
+}
 .header {
     margin-top: 32px;
     background-color: #EDF1F3;
@@ -143,6 +202,7 @@
     color: #132B3D;
 }
 .services_towtruck {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -863,8 +923,55 @@ footer {
 .img_frame {
     display: none;
 }
-
+.img_frame320px {
+    display: none;
+}
+.drop-down {
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.line {
+    border-radius: 2px;
+    height: 2px;
+    width: 26px;
+    background-color: #046FB3;
+}
+.ring {
+    top: 174px;
+    left: 133px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 344px;
+    height: 358px;
+    border-radius: 24px;
+    background-color: #EDF2F5;
+    display: none;
+}
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
+@media (max-width:960px) {
+    .header_ready {
+        display: none;
+    }
+    .header_services {
+        display: none;
+    }
+    .header_job {
+        display: none;
+    }
+    .header_company {
+        display: none;
+    }
+    .drop-down {
+        display: flex;
+    }
+}
 @media (max-width:768px) {
     .cars {
         height: 1041px;
@@ -1162,6 +1269,12 @@ footer {
     }
 }
 @media (max-width:657px)  {
+    .phone {
+        width: 48px;
+    }
+    .phone p {
+        display: none;
+    }
     .order_text h2 {
         width: 100%;
     }
@@ -1173,6 +1286,9 @@ footer {
     }
 }
 @media (max-width:443px){
+    .footer_variants2 {
+        width: 100%;
+    }
     .cars { 
         height: 3326px
     }
@@ -1186,12 +1302,6 @@ footer {
     }
 }
 @media (max-width:362px) {
-    .phone {
-        width: 48px;
-    }
-    .phone p {
-        display: none;
-    }
     .container_card2 h3 {
         width: 100%;
     }
@@ -1348,5 +1458,20 @@ footer {
     .footer_card3 p {
         font-size: 16px;
         font-weight: 500;
+    }
+    .img_frame {
+        display: none;
+    }
+    .img_frame320px {
+        margin-top: 17px;
+        display: flex;
+        justify-content:center;
+    }
+}
+@media (max-width:810px) {
+    .footer_contacts2 {
+        flex-direction: column;
+        align-items: center;
+        height: 117px;
     }
 }

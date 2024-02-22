@@ -865,7 +865,10 @@ footer {
 }
 
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
-@media (max-width:768px){
+@media (max-width:768px) {
+    .cars {
+        height: 1041px;
+    }
     .img_frame img {
         width: 100%;
     }
@@ -1020,6 +1023,19 @@ footer {
         width: 100%;
     }
 }
+@media (max-width:784px) {
+    .blue_card1 {
+        margin-top: 179px;
+    }
+    .services_cars {
+        height: 2153px;
+    }
+}
+@media (max-width: 768px){
+.services_cars {
+    height: 1226px;
+    }
+}
 @media (max-width:1221px){
     .order_text {
         width: 100%;
@@ -1055,6 +1071,16 @@ footer {
         width: 189px;
     }
 }
+@media (max-width:1145px) {
+    .cars { 
+        height: 1035px;
+    }
+} 
+@media (max-width:863px) {
+    .cars {
+        height: 1619px;
+    }
+} 
 @media (max-width:688px) {
     .dignities_cards {
         justify-content: center;
@@ -1070,17 +1096,6 @@ footer {
     .blue_card1 {
         margin-top: 167px;
         width: 332px;
-    }
-}
-@media (max-width:657px)  {
-    .order_text h2 {
-        width: 100%;
-    }
-    .services_towtruck-text-h {
-        width: 100%;
-    }
-    .cars {
-        height: 1570px;
     }
 }
 @media (max-width:526px){
@@ -1130,11 +1145,6 @@ footer {
         height: 2167px;
     }
 }
-@media (max-width:443px){
-    .cars { 
-        height: 3326px
-    }
-}
 @media (max-width:402px) {
     .footer_card1 {
         width: 100%;
@@ -1144,5 +1154,199 @@ footer {
     }
     .footer_card3 {
         width: 100%;
+    }
+}
+@media (max-width:768px){
+    .cars {
+        height: 1041px;
+    }
+}
+@media (max-width:657px)  {
+    .order_text h2 {
+        width: 100%;
+    }
+    .services_towtruck-text-h {
+        width: 100%;
+    }
+    .cars {
+        height: 1570px;
+    }
+}
+@media (max-width:443px){
+    .cars { 
+        height: 3326px
+    }
+    .cars_cards-first {
+        justify-content: center;
+    }
+}
+@media (max-width:782px){
+    .reviews_slider {
+        height: 504px;
+    }
+}
+@media (max-width:362px) {
+    .phone {
+        width: 48px;
+    }
+    .phone p {
+        display: none;
+    }
+    .container_card2 h3 {
+        width: 100%;
+    }
+    .white_card {
+        width: 100%;
+    }
+    .white_card1 {
+        width: 100%;
+    }
+    .white_card2 {
+        width: 100%;
+    }
+    .dignities_p {
+        font-size: 30px;
+    }
+    .button_slider p {
+        font-size: 30px;
+    }
+    .card_price {
+        left: 148px;
+    }
+}
+@media (max-width:320px) {
+    .services {
+        height: 288px;
+    }
+    .services_towtruck-text-h {
+        width: 263px;
+        font-size: 24px;
+    }
+    .services_towtruck-text {
+        height: 139px;
+    }
+    .services_towtruck-text-l {
+        width: 232px;
+        font-size: 18px;
+    }
+    .services_cut input {
+        display: none;
+    }
+    .services_phone {
+        height: 123px;
+        align-items: center;
+    }
+    .services_click {
+        width: 256px;
+    }
+    .services_towtruck-text {
+        align-items: center;
+    }
+    .dignities_p {
+        padding-left: 16px;
+        font-size: 28px;
+    }
+    .card {
+        width: 256px;
+        height: 248px;
+    }
+    .container_card {
+        width: 224px;
+    }
+    .card_flex p {
+        font-size: 14px;
+    }
+    .card_flex h3 {
+        font-size: 20px;
+    }
+    .card_flex2 h3 {
+        font-size: 20px;
+    }
+    .card_flex2 p {
+        font-size: 14px;
+    }
+    .card_flex3 h3 {
+        font-size: 20px;
+    }
+    .card_flex3 p {
+        font-size: 14px;
+    }
+    .blue_card1 {
+        width: 288px;
+    }
+    .blue_card2 {
+        width: 288px;
+    }
+    .blue_card3 {
+        width: 288px;
+    }
+    .blue_card4 {
+        width: 288px;
+    }
+    .card_price {
+        left: 131px;
+    }
+    .blue_card1 img {
+        width: 270px;
+    }
+    .blue_card2 img {
+        width: 270px;
+    }
+    .blue_card4 img {
+        width: 270px;
+    }
+    .services_cars {
+        height: 2214px;
+    }
+    .reviews_container {
+        align-items: start;
+        flex-direction: column;
+        width: 240px;
+    }
+    .reviews_card {
+        width: 272px;
+        height: 333px;
+    }
+    .rewiws_textp {
+        margin-top: 56px;
+    }
+    .rewiws_textp p {
+        width: 240px;
+        font-size: 14px;
+    }
+    .button_slider p {
+        font-size: 28px;
+    }
+    .footer_adress h6 {
+        width: 282px;
+        font-size: 18px;
+    }
+    .footer {
+        height: 698px;
+    }
+    .footer_card1 {
+        width: 278px;
+    }
+    .footer_card2 {
+        width: 278px;
+    }
+    .footer_card3 {
+        width: 278px;
+    }
+    .logo {
+        padding-left: 16px;
+    }
+    .footer_variants {
+        padding-left: 16px;
+    }
+    .footer_contacts {
+        padding-left: 16px;
+    }
+    .footer_variants p {    
+        font-weight: 500;
+    }
+    .footer_card3 p {
+        font-size: 16px;
+        font-weight: 500;
     }
 }

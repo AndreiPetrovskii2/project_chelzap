@@ -946,6 +946,7 @@ footer {
     display: none;
 }
 .ring {
+    z-index: 999;
     top: 174px;
     left: 133px;
     display: flex;

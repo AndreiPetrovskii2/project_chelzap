@@ -151,7 +151,7 @@
     font-size: 24px;
     font-weight: 400;
 }
-.services img {
+.img_none {
     margin-top: 24px;
     width: 462px;
     height: 399px;
@@ -942,6 +942,9 @@ footer {
     width: 26px;
     background-color: #046FB3;
 }
+.input_768px {
+    display: none;
+}
 .ring {
     top: 174px;
     left: 133px;
@@ -953,6 +956,56 @@ footer {
     border-radius: 24px;
     background-color: #EDF2F5;
     display: none;
+}
+.order_inputs2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.order_inputs2 input {
+    z-index: 999;
+    padding-left: 16px;
+    font-size: 16px;
+    width: 304px;
+    font-weight: 400;
+    height: 48px;
+    border: 1px #D8E9FF solid;
+    border-radius: 6px;
+}
+.order_inputs2 input:hover {
+    border: 1px #046FB3 solid;
+}
+.order_inputs2 button {
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    width: 220px;
+    height: 48px;
+    background-color: #046FB3;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.order_inputs2-text {
+    display: flex;
+    width: 304px;
+    justify-content: space-between;
+}
+.order_inputs2-text p {
+    font-weight: 700;
+    width: 212.84px;
+    font-size: 22px;
+}
+.img_icon {
+    height: 32px;
+    cursor: pointer;
+}
+.services_click2 {
+    font-size: 12px;
+    width: 304px;
+    color: #132B3D;
 }
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 @media (max-width:960px) {
@@ -973,6 +1026,12 @@ footer {
     }
 }
 @media (max-width:768px) {
+    .input_768px{
+        display: flex;
+    }
+    .input_1200px{
+        display: none;
+    }
     .cars {
         height: 1041px;
     }
@@ -1001,7 +1060,7 @@ footer {
     .header_company {
         display: none;
     }
-    .services img {
+    .img_none {
         display: none;
     }
     .card {
@@ -1171,7 +1230,7 @@ footer {
         justify-content: center;
         margin-top: 12px;
     }
-    .services img {
+    .img_none {
         display: none;
     }
     .cars_cards-blue img {
@@ -1206,6 +1265,9 @@ footer {
     }
 }
 @media (max-width:526px){
+    .ring {
+        left: 36px;
+    }
     .order {
         height: 350px;
     }
@@ -1222,6 +1284,22 @@ footer {
     }
 }
 @media (max-width:430px) {
+    .ring {
+        left: 4px;
+        width: 288px;
+    }
+    .order_inputs2-text {
+        width: 248px;
+    }
+    .order_inputs2 input {
+        width: 248px;
+    }
+    .order_inputs2 button {
+        width: 248px;
+    }
+    .services_click2 {
+        width: 248px;
+    }
     .services_click {
         width: 100%;
     }

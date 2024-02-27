@@ -343,6 +343,14 @@
     background-color: #046FB3;
     border-radius: 16px;
 }
+.blue_card5 {
+    margin-top: 72px;
+    position: relative;
+    width: 384px;
+    height: 103px;
+    background-color: #046FB3;
+    border-radius: 16px;
+}
 .white_card1 {
     top: 78px;
     position: absolute;
@@ -353,6 +361,10 @@
     border-radius: 10px;
 }
 .blue_card1 img {
+    position: absolute;
+    bottom: 0px;
+}
+.blue_card5 img {
     position: absolute;
     bottom: 0px;
 }
@@ -369,6 +381,15 @@
     bottom: 0px;
 }
 .white_card2 {
+    top: 78px;
+    position: absolute;
+    z-index: 1;
+    width: 384px;
+    height: 147px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.white_card5 {
     top: 78px;
     position: absolute;
     z-index: 1;
@@ -1008,6 +1029,10 @@ footer {
     width: 304px;
     color: #132B3D;
 }
+.container1 {
+    width: 1200px;
+    margin: 0 auto;
+}
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 @media (max-width:960px) {
     .header_ready {
@@ -1026,7 +1051,14 @@ footer {
         display: flex;
     }
 }
-@media (max-width:768px) {
+@media (max-width:784px) {
+    .header_img-logo {
+        padding-left: 15px;
+        height: 16px;
+    }
+    .img_1 {
+        height: 16px;
+    }
     .input_768px{
         display: flex;
     }
@@ -1045,6 +1077,9 @@ footer {
     .container_card2 h3 {
         width: 306px;
         font-size: 20px;
+    }
+    .container1 {
+        width: 688px;
     }
     .container {
         width: 688px;
@@ -1074,6 +1109,9 @@ footer {
     .blue_card1 {
         width: 332px;
     }
+    .blue_card5 {
+        width: 332px;
+    }
     .white_card1 {
         width: 332px;
     }
@@ -1081,6 +1119,9 @@ footer {
         width: 332px;
     }
     .white_card2 {
+        width: 332px;
+    }
+    .white_card5 {
         width: 332px;
     }
     .blue_card3 {
@@ -1094,6 +1135,10 @@ footer {
         width: 332px;
     }
     .blue_card1 img {
+        width: 300px;
+        bottom: 10px;
+    }
+    .blue_card5 img {
         width: 300px;
         bottom: 10px;
     }
@@ -1181,7 +1226,10 @@ footer {
 }
 @media (max-width:1445px){
     .services_cars {
-        height: 1132px;
+        height: 821px;
+    }
+    .container1{
+        width: 100%;
     }
     .container{
         width: 100%;
@@ -1191,8 +1239,8 @@ footer {
     }
 }
 @media (max-width:784px) {
-    .blue_card1 {
-        margin-top: 179px;
+    .blue_card5 {
+        margin-top:72px;
     }
     .services_cars {
         height: 2153px;
@@ -1217,12 +1265,18 @@ footer {
 @media (max-width:1172px) {
     .services_cars {
         width: 100%;
+        height: 1132px;
     }
     .blue_card4 {
-        margin-top: 215px;
+        margin-top: 72px;
     }
     .footer {
         flex-wrap: wrap;
+    }
+}
+@media (max-width:1168px) {
+    .blue_card4 {
+        margin-top: 215px;
     }
 }
 @media (max-width:1115px) {
@@ -1245,7 +1299,7 @@ footer {
 } 
 @media (max-width:863px) {
     .cars {
-        height: 1619px;
+        height: 1533px;
     }
 } 
 @media (max-width:688px) {
@@ -1260,7 +1314,7 @@ footer {
     .services_cars {
         height: 2103px;
     }
-    .blue_card1 {
+    .blue_card5 {
         margin-top: 167px;
         width: 332px;
     }
@@ -1349,6 +1403,7 @@ footer {
 }
 @media (max-width:657px)  {
     .phone {
+        margin-left: 63px;
         width: 48px;
     }
     .phone p {
@@ -1393,6 +1448,9 @@ footer {
     .white_card2 {
         width: 100%;
     }
+    .white_card5 {
+        width: 100%;
+    }
     .dignities_p {
         font-size: 30px;
     }
@@ -1403,9 +1461,66 @@ footer {
         left: 148px;
     }
 }
+.order_320px {
+    display: none;
+    font-size: 11px;
+    font-weight: 400;
+}
 @media (max-width:320px) {
+    .order_text h2 {
+        padding-top: 20px;
+    }
+    .order_320px {
+        margin-top: 10px;
+        font-size: 11px;
+        font-weight: 400;
+        color: #132B3D;
+        display: flex;
+        padding-left: 16px;
+    }
+    .order_inputs button {
+        width: 256px;
+    }
+    .order_text p {
+        text-align: start;
+        padding-left: 16px;
+    }
+    .order_text {       
+        height: 320px;
+    }
+    .order_text h2 {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: start;
+        width: 256px;
+        padding-left: 16px;
+    }
+    .order {
+        width: 288px;
+        height: 342px;
+    }
+    .order_inputs input {
+        display: none;
+    }
+    .services_cars-text p {
+        font-size: 28px;
+        width: 288px;
+    }
+    .dignities_cards {
+        padding-left: 16px;
+        justify-content: start;
+    }
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .services {
-        height: 288px;
+        width: 288px;
+        height: 347px;
+    }
+    .drop-down {
+        height: 32px;
     }
     .services_towtruck-text-h {
         width: 263px;
@@ -1463,6 +1578,9 @@ footer {
     .blue_card1 {
         width: 288px;
     }
+    .blue_card5 {
+        width: 288px;
+    }
     .blue_card2 {
         width: 288px;
     }
@@ -1476,6 +1594,9 @@ footer {
         left: 131px;
     }
     .blue_card1 img {
+        width: 270px;
+    }
+    .blue_card5 img {
         width: 270px;
     }
     .blue_card2 img {

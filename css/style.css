@@ -3,7 +3,9 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
-
+a {
+    text-decoration: none;
+}
 .container {
     margin: 0 auto;
     width: 1200px;
@@ -77,6 +79,7 @@
     align-items: center;
 }
 .header_ready {
+    color: black;
     font-family: "Raleway", sans-serif;
 }
 .header p {
@@ -90,6 +93,7 @@
     width: 78px;
 }
 .header_services p {
+    color: black;
     font-family: "Raleway", sans-serif;
 }
 .header_job {
@@ -99,6 +103,7 @@
     width: 132px;
 }
 .header_job p {
+    color: black;
     font-family: "Raleway", sans-serif;
 }
 .header_company {
@@ -108,6 +113,7 @@
     width: 119px;
 }
 .header_company p {
+    color: black;
     font-family: "Raleway", sans-serif;
 }
 .phone {
@@ -152,7 +158,6 @@
     font-weight: 400;
 }
 .img_none {
-    margin-top: 24px;
     width: 462px;
     height: 399px;
 }
@@ -686,7 +691,7 @@
 .reviews_slider {
     height: 418px;
 }
-.reviews_slider p {
+.reviews_slider h2 {
     padding-top: 72px;
     font-size: 40px;
     font-weight: 700;
@@ -944,9 +949,78 @@ footer {
 .img_frame {
     display: none;
 }
+.shadow_img2 {
+    width: 688px;
+    height: 233px;
+    position: relative;
+}
+.img_frame-text {
+    font-size: 14px;
+    font-weight: 400;
+    top: 32px;
+    left: 404px;
+    position: absolute;
+}
+.img_frame-text2 {
+    font-size: 14px;
+    font-weight: 400;
+    top: 77px;
+    left: 439px;
+    position: absolute;
+}
+.img_frame-text3 {
+    font-size: 14px;
+    font-weight: 400;
+    top: 122px;
+    left: 344px;
+    position: absolute;
+}
+.img_frame-text4 {
+    font-size: 14px;
+    font-weight: 400;
+    top: 167px;
+    left: 402px;
+    position: absolute;
+}
 .img_frame320px {
+    display: flex;
+    justify-content: center;
     display: none;
 }
+.shadow_img3 {
+    position: relative;
+    width: 288px;
+    height: 233px;
+}
+.shadow_img3-text {
+    font-size: 12px;
+    font-weight: 400;
+    top: 20px;
+    left: 91px;
+    position: absolute;
+}
+.shadow_img3-text2 {
+    font-size: 12px;
+    font-weight: 400;
+    top: 78px;
+    left: 81px;
+    position: absolute;
+}
+.shadow_img3-text3 {
+    font-size: 12px;
+    font-weight: 400;
+    top: 121px;
+    left: 67px;
+    position: absolute;
+}
+.shadow_img3-text4 {
+    font-size: 12px;
+    font-weight: 400;
+    top: 179px;
+    left: 42px;
+    position: absolute;
+}
+
 .drop-down {
     cursor: pointer;
     align-items: center;
@@ -1032,6 +1106,43 @@ footer {
 .container1 {
     width: 1200px;
     margin: 0 auto;
+}
+.text_on-img {
+    margin-top: 24px;
+    position: relative;
+    height: 399px;
+}
+.img_none-text {
+    height: 20px;
+    top: 41px;
+    left: 134px;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+}
+.img_none-text2 {
+    height: 20px;
+    top: 88px;
+    left: 174px;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+}
+.img_none-text3 {
+    height: 20px;
+    top: 136px;
+    left: 66px;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+}
+.img_none-text4 {
+    width: 250px;
+    top: 184px;
+    left: 168px;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
 }
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 @media (max-width:960px) {
@@ -1285,7 +1396,19 @@ footer {
         justify-content: center;
         margin-top: 12px;
     }
-    .img_none {
+    .text_on-img {
+        display: none;
+    }
+    .img_none-text {
+        display: none;
+    }
+    .img_none-text2 {
+        display: none;
+    }
+    .img_none-text3 {
+        display: none;
+    }
+    .img_none-text4 {
         display: none;
     }
     .cars_cards-blue img {
@@ -1399,6 +1522,16 @@ footer {
 @media (max-width:768px){
     .cars {
         height: 1041px;
+    }
+}
+@media (max-width:704px) {
+    .img_frame {
+        display: none;
+    }
+    .img_frame320px {
+        margin-top: 17px;
+        display: flex;
+        justify-content: center;
     }
 }
 @media (max-width:657px)  {
@@ -1606,6 +1739,7 @@ footer {
         width: 270px;
     }
     .services_cars {
+        border-radius: 0px;
         height: 2214px;
     }
     .reviews_container {

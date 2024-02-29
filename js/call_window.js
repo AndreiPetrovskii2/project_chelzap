@@ -1,5 +1,5 @@
 let call = document.getElementById('ring');
-let input_window = document.getElementById('input4');
+let modal_window = document.getElementById('modal_window');
 let close = document.getElementById('img_close');
 var main2 = document.getElementById('main');
 let shadow = document.getElementById('shadow');
@@ -10,7 +10,7 @@ let shadow_img2 = document.getElementById('shadow_img2');
 let shadow_img3 = document.getElementById('shadow_img3');
 let shadow_dignities = document.getElementById('shadow_dignities')
 
-input_window.addEventListener('click',function (){
+modal_window.addEventListener('click',function (){
     call.style = 'display:flex;';
     shadow.style = 'filter: blur(2px);';
     shadow2.style = 'filter: blur(2px);';

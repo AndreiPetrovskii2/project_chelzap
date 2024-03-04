@@ -92,7 +92,7 @@ a {
     font-weight: 400;
 }
 .header_menu-navigation {
-    width: 614px;
+    width: 549px;
     display: flex;
     justify-content: space-between;
 }
@@ -103,7 +103,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 78px;
 }
 .header_services p {
     color: black;
@@ -113,7 +112,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 132px;
 }
 .header_job p {
     color: black;
@@ -123,7 +121,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 119px;
 }
 .header_company p {
     color: black;

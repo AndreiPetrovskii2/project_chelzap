@@ -99,33 +99,6 @@ a {
 .phone img {
     padding-left: 5px;
 }
-.header_services {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header_services p {
-    color: black;
-    font-family: "Raleway", sans-serif;
-}
-.header_job {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header_job p {
-    color: black;
-    font-family: "Raleway", sans-serif;
-}
-.header_company {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header_company p {
-    color: black;
-    font-family: "Raleway", sans-serif;
-}
 .phone {
     background-color: #046FB3;
     border-radius: 32px;
@@ -1236,36 +1209,21 @@ footer {
     height: 399px;
 }
 .img_none-text {
-    height: 20px;
+    align-items: end;
+    text-align: end;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    height: 182px;
     top: 41px;
-    left: 134px;
+    left: 67px;
     font-size: 16px;
     font-weight: 400;
     position: absolute;
 }
-.img_none-text2 {
-    height: 20px;
-    top: 88px;
-    left: 174px;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-}
-.img_none-text3 {
-    height: 20px;
-    top: 136px;
-    left: 66px;
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-}
-.img_none-text4 {
+.img_none-text250px {
+    text-align: start;
     width: 250px;
-    top: 184px;
-    left: 168px;
-    font-size: 15px;
-    font-weight: 400;
-    position: absolute;
 }
 .footer_variants2 p {
     color: black;
@@ -1277,6 +1235,16 @@ footer {
 }
 .img_logo768px {
     display: none;
+}
+.header_menu-navigation p {
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+.reviews_imgs5 {
+    display: none;
+}
+.img_none-text div {
+    padding-bottom: 29px;
 }
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 

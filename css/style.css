@@ -10,6 +10,10 @@ a {
     margin: 0 auto;
     width: 1200px;
 }
+.container4 {
+    margin: 0 auto;
+    width: 1200px;
+}
 .second_header {
     display: none;
 }
@@ -1527,7 +1531,11 @@ footer {
 
 
 /*----------------------------------------------dignities----------------------------------------------------*/
-@media (max-width:791px) {
+@media (max-width:1300px) {
+    .dignities_cards {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .card {
         height: 248px;
         width: 336px;
@@ -1542,6 +1550,7 @@ footer {
         font-size: 22px;
     }
     .dignities_p {
+        padding-left: 40px;
         font-size: 32px;
     }
     .dignities {
@@ -1558,7 +1567,22 @@ footer {
         margin-top: 0px;
     }
 }
-@media (max-width:705px) {
+@media (max-width:785px) {
+    .dignities_cards {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (max-width:768px) {
+    .dignities_p { 
+        padding-left: 0px;
+    }
+    .dignities_cards {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width:767px) {
     .card {
         height: 248px;
         width: 256px;
@@ -1569,8 +1593,6 @@ footer {
     .container {
         width: 100%;
     }
-}
-@media (max-width:545px) {
     .card_flex-text {
         font-size: 20px;
     }

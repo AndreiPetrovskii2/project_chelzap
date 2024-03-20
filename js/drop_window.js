@@ -13,4 +13,5 @@ close_btn.addEventListener('click', function (){
     second_header.style= 'display:none';
     first_header.style ='display:flex';
     main.style = 'filter: blur(0px);'
+
 })

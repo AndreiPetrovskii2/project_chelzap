@@ -2036,7 +2036,7 @@ footer {
 
 
 /*----------------------------------------------cars----------------------------------------------------*/
-@media (max-width:1144px) {
+@media (max-width:1300px) {
     .moto {
         width: 127px;
     }
@@ -2133,7 +2133,7 @@ footer {
         font-size: 17px;
     }
 }
-@media (max-width:704px) {
+@media (max-width:767px) {
     .cars {
         height: 196px;
     }
@@ -2198,7 +2198,11 @@ footer {
 
 
 /*----------------------------------------------reviews----------------------------------------------------*/
-@media (max-width:1172px) {
+@media (max-width:1300px) {
+    .reviews {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .reviews_imgs1 {
         width: 335px;
         height: 455px;
@@ -2216,8 +2220,6 @@ footer {
     .reviews_imgs4 {
         display: none;
     }
-}
-@media (max-width:768px) {
     .reviews {
         height: 953px;
         margin-top: 81px;
@@ -2236,8 +2238,9 @@ footer {
         line-height: 22.4px;
     }
 }
-@media (max-width:464px) {
+@media (max-width:767px) {
     .reviews {
+        padding-left: 16px;
         margin-top: 99px;
     }
     .reviews_slider h2 {
@@ -2486,5 +2489,4 @@ footer {
         width: 286px;
     }
 }
-
 /*----------------------------------------------footer----------------------------------------------------*/

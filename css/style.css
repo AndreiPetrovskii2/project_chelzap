@@ -10,6 +10,10 @@ a {
     margin: 0 auto;
     width: 1200px;
 }
+.container_footer {
+    width: 1200px;
+    margin: 0 auto;
+}
 .container4 {
     margin: 0 auto;
     width: 1200px;
@@ -1273,6 +1277,7 @@ footer {
         padding-left: 8px;
     }
     .logo_2 {
+        border-radius: 0px;
         height: 64px;
     }
     .img_1 {
@@ -1493,9 +1498,6 @@ footer {
     .button_adaptation {
         display: inline;
     }
-    .services_towtruck {
-        width: 100%;
-    }
     .services_towtruck-text {
         width: 100%;
     }
@@ -1504,7 +1506,7 @@ footer {
     }
     .services {
         margin-top: 17px;
-        width: 288px;
+        width: 92%;
         height: 347px;
         border-radius: 16px;
     }
@@ -2290,21 +2292,19 @@ footer {
         height: 220px;
     }
     .reviews_imgs div {
+        width: 538px;
         display: flex;
         flex-direction: row;
     }
     .reviews_imgs {
-        padding-left: 16px;
         margin-top: 21px;
-        width: 784px;
-    }
-    .reviews_slider {
-        padding-left: 16px;
+        width: 820px;
     }
     .reviews_slider {
         height: 518px;
     }
     .buttons { 
+        padding-left: 21px;
         align-items: flex-end;
     }
     .buttons_1 {
@@ -2336,27 +2336,14 @@ footer {
 
 
 /*----------------------------------------------footer----------------------------------------------------*/
-@media (max-width:1009px) {
-    .footer {
-        flex-wrap: wrap;
+
+@media (max-width:1300px) {
+    .container_footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
-    .footer_card1 {
-        width: 255px;
-    }
-    .footer_card3 {
-        width: 255px;
-    }
-    .footer_variants {
-        padding-right: 0px;
-    }
-}
-@media (max-width:800px) {
-    .footer_adress h6 {
-        width: 220px;
-    }
-}
-@media (max-width:768px) {
     footer {
         margin-top: 39px;
     }
@@ -2409,7 +2396,7 @@ footer {
         padding-top: 31px;
     }
 }
-@media (max-width:707px) {
+@media (max-width:767px) {
     .footer_variants3 {
         display: none;
     }
@@ -2425,8 +2412,6 @@ footer {
         height: 698px;
         width: 100%;
     }
-} 
-@media (max-width:411px) {
     .footer_contacts {
         height: 194px;
     }
@@ -2445,8 +2430,6 @@ footer {
     .footer_addres2 {
         padding-bottom: 44px;
     }
-}
-@media (max-width:320px) {
     .footer {
         height: 643px;
     }
@@ -2488,5 +2471,15 @@ footer {
     .footer_card3 {
         width: 286px;
     }
+} 
+@media (max-width:355px) {
+    .container_footer {
+        align-items: flex-start;
+    }
+    .footer {
+        padding-left: 10px;
+    }
+}
+@media (max-width:320px) {
 }
 /*----------------------------------------------footer----------------------------------------------------*/

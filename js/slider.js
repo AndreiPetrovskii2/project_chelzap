@@ -24,15 +24,21 @@ left.addEventListener('click' ,function(){
 
 
 right.addEventListener('mousedown' , function (){
-    right.style = 'border: 2px solid; border-radius: 0px;';
+    left.style = 'background: white;'
+    right.style = 'border: 2px solid; border-radius: 0px;background: transparent;';
 })
 left.addEventListener('mousedown' , function (){
+    left.style = 'background: transparent;'
+    right.style = 'background: white;'
     left.style = 'border: 2px solid; border-radius: 0px;';
 })
 right.addEventListener('mouseup' , function (){
-    right.style = 'border: 0px solid; border-radius: 4px;';
+    left.style = 'background: white;'
+    right.style = 'border: 0px solid; border-radius: 4px;background: transparent;';
 })
 left.addEventListener('mouseup' , function (){
+    left.style = 'background: transparent;'
+    right.style = 'background: white;'
     left.style = 'border: 0px solid; border-radius: 4px;';
 })
 right.addEventListener('mouseover' , function (){

@@ -691,6 +691,7 @@ a {
     width: 112px;
 }
 .buttons_1 {
+    background: transparent;
     border-radius: 4px;
     border: none;
     display: flex;
@@ -1587,15 +1588,6 @@ footer {
         padding-right: 20px;
     }
 }
-@media (max-width:768px) {
-    .dignities_p { 
-        padding-left: 0px;
-    }
-    .dignities_cards {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-}
 @media (max-width:767px) {
     .card {
         height: 248px;
@@ -1826,13 +1818,11 @@ footer {
         row-gap: 42px;
     }
 }
-@media (max-width:768px) {
+@media (max-width:765px) {
     .services_cars-cadrs {
         padding-left: 0px;
         padding-right: 0px;
     }
-}
-@media (max-width:765px) {
     
     .services_cars-cadrs {
         margin-top: 40px;
@@ -2483,3 +2473,29 @@ footer {
 @media (max-width:320px) {
 }
 /*----------------------------------------------footer----------------------------------------------------*/
+.swiper {
+    margin-left: inherit;
+    margin-left: 40px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    width: 256px;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-wrapper {
+    gap: 20px;
+  }

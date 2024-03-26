@@ -2499,3 +2499,18 @@ footer {
   .swiper-wrapper {
     gap: 20px;
   }
+  @media (min-width:767px) {  
+    .dignities_desktop .swiper-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .dignities_desktop .swiper-wrapper .swiper-slide {
+        width: auto;
+    }
+  }
+  @media (max-width:767px) {  
+    .dignities_desktop .swiper-wrapper .card {
+        width: auto;
+    }
+  }

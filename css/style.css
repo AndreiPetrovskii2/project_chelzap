@@ -428,7 +428,7 @@ a {
     flex-direction: column;
 }
 .cars_cards-first {
-    grid-gap: 200px 0px;
+    row-gap: 88px;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -709,6 +709,12 @@ a {
     align-items: center;
     width: 48px;
     height: 48px;
+}
+.buttons_1:hover {
+    border: 1px #046FB3 solid;
+}
+.buttons_2:hover {
+    border: 1px #046FB3 solid;
 }
 .reviews_imgs {
     margin-top: 56px;
@@ -1228,6 +1234,86 @@ footer {
 }
 .card_flex-text-p {
     font-size: 16px;
+}
+.card_car {
+    display: flex;
+    flex-direction: column;
+    width: 282px;;
+    height: 190px;
+}
+.blue_card-cars {
+    margin-bottom: -13px;
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 84px;
+    background-color:#046FB3;
+}
+.white_card-cars {
+    z-index: 999;
+    border-radius: 10px;
+    background-color: #EDF2F5;
+    width: 100%;
+    height: 122px;
+}
+.container_card-cars {
+    height: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    width: 233px;
+    margin: 0 auto;
+
+}
+.container_card-cars div {
+    font-size: 22px;
+    font-weight: 600;
+}
+.container_card-cars p {
+    padding-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.blue_card-cars img {
+    position: absolute;
+    z-index: 0;
+    left: 11px;
+    bottom: 11px;
+}
+.card_price-cars {
+    width: 147px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.card_price-cars2 {
+    width: 147px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+.card_price-cars h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.passenger_car {
+    left: 0px !important;
+}
+.spec {
+    left: 8px !important;
+    bottom: -9px !important;
+}
+.boat {
+    bottom: -31px !important;
+}
+.gruz {
+    left: 3px !important;
 }
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 
@@ -2042,100 +2128,67 @@ footer {
 
 /*----------------------------------------------cars----------------------------------------------------*/
 @media (max-width:1300px) {
-    .moto {
-        width: 127px;
+    .card_car {
+        width: 213.33px;
+    }
+    .container_card-cars {
+        width: 181.33px;
+    }
+    .passenger_car {
+        width: 213px;
+    }
+    .vned {
+        left: 2px !important;
+        width: 213px;
+    }
+    .spec {
+        width: 213px;
+        left: 0px !important;
+        bottom: 2px !important;
+    }
+    .blue_card-cars {
+        height: 103px;
+    }
+    .white_card-cars {
+        height: 109px;
+    }
+    .cars_cards-first {
+        row-gap: 62px;
+    }
+    .boat {
+        bottom: -19px !important;
+        left: 1px !important;
+        width: 214px;
+    }
+    .gruz {
+        width: 213px;
+    }
+    .micro {
+        left: 1px !important;
+        bottom: 13px !important;
+        width: 213px;
+    }
+    .cran {
+        left: 1px !important;
+        bottom: 12px !important;
+        width: 213px;
     }
     .cars {
         margin-top: 78px;
         height: 952px;
     }
     .cars_cards-first {
-        row-gap: 149px;
         width: 688px;
     }
     .cars_cards {
         align-items: center;
     }
-    .cars_cards-blue {
-        height: 103px;
-        width: 213.33px;
-    }
-    .cars_cards-blue2 {
-        height: 103px;
-        width: 213.33px;
-    }
-    .cars_cards-blue3 {
-        height: 103px;
-        width: 213.33px;
-    }
-    .cars_cards-blue4 {
-        height: 103px;
-        width: 213.33px;
-    }
-    .cars_cards-blue5 {
-        height: 103px;
-        width: 213.33px;
-    }
-    .cars_cards-blue6 {
-        height: 103px;
-        width: 213.33px;
-    }
-    .cars_cards-white {
-        top: 88px;
-        height: 109px;
-        width: 213.33px;
-    }
-    .cars_cards-white2 {
-        top: 88px;
-        height: 109px;
-        width: 213.33px;
-    }
-    .cars_cards-white3 {
-        top: 88px;
-        height: 109px;
-        width: 213.33px;
-    }
-    .cars_cards-white4 {
-        top: 88px;
-        height: 109px;
-        width: 213.33px;
-    }
-    .cars_cards-blue2 img {
-        width: 213.33px;
-    }
-    .cars_cards-blue3 img {
-        width: 213.33px;
-    }
-    .cars_cards-blue4 img {
-        width: 213.33px;
-    }
-    .cars_cards-blue5 img {
-        width: 213.33px;
-    }
-    .cars_cards-blue img {
-        width: 183.33px;
-        position: absolute;
-        bottom: 12px;
-        left: 3px;
-    }
-    .cars_container-text-div {
-        padding-top: 20px;
+    .container_card-cars div {
         font-size: 18px;
     }
-    .cars_container-text-div2 {
-        padding-top: 20px;
-        font-size: 17px;
-    }
-    .cars_container {
-        width: 180.33px;
-        height: 89px;
-    }
-    .cars_container2 {
-        width: 180.33px;
-        height: 89px;
-    }
-    .cars_container2 p {
-        font-size: 17px;
+    .card_price-cars {
+        font-size: 18px;
+        font-weight: 500;
     }
 }
 @media (max-width:767px) {
@@ -2162,41 +2215,11 @@ footer {
     .cars_cards-first::-webkit-scrollbar {
         display: none;
     }
-    .cars_cards-blue6 {
+    .card_car {
         width: 240px;
-    }
-    .cars_cards-blue {
-        width: 240px;
-    }
-    .cars_cards-blue2 {
-        width: 240px;
-    }
-    .cars_cards-blue3 {
-        width: 240px;
-    }
-    .cars_cards-blue4 {
-        width: 240px;
-    }
-    .cars_cards-blue5 {
-        width: 240px;
-    }
-    .cars_cards-white {
-        width: 240px;
-    }
-    .cars_cards-white2 {
-        width: 240px;
-    }
-    .cars_cards-white3 {
-        width: 240px;
-    }
-    .cars_cards-white4 {
-        width: 240px;
-    }
-    .cars {
-        margin-top: 45px;
-    }
-    .cars_container {
-        width: 207.33px;
+    }   
+    .container_card-cars {
+        width: 208px;
     }
 }
 /*----------------------------------------------cars----------------------------------------------------*/

@@ -4,9 +4,6 @@ let right = document.getElementById('right');
 let reviews_slider = document.getElementById('reviews_slider');
 let offset = 0;
 right.addEventListener('click' ,function(){
-    if(reviews_slider.innerWidth == 320) {
-        reviews_slider.style = 'display : none';
-    }
     offset += 410;
     if(offset > 410){
         offset = 410;
@@ -24,33 +21,22 @@ left.addEventListener('click' ,function(){
 
 
 right.addEventListener('mousedown' , function (){
-    left.style = 'background: white;'
-    right.style = 'border: 2px solid; border-radius: 0px;background: #EEF3F6;';
+    right.style = 'border: 2px solid; border-radius: 0px;;';
 })
 left.addEventListener('mousedown' , function (){
-    left.style = 'background: transparent;'
-    right.style = 'background: white;'
     left.style = 'border: 2px solid; border-radius: 0px;';
 })
 right.addEventListener('mouseup' , function (){
-    left.style = 'background: white;'
-    right.style = 'border: 0px solid; border-radius: 4px;background: #EEF3F6';
+    right.style = 'border: 0px solid; border-radius: 4px;';
 })
 left.addEventListener('mouseup' , function (){
-    left.style = 'background: transparent;'
-    right.style = 'background: white;'
     left.style = 'border: 0px solid; border-radius: 4px;';
 })
-right.addEventListener('mouseover' , function (){
-    right.style = 'border: 1px #046FB3 solid;';
-}) 
-right.addEventListener('mouseout' , function (){
-    right.style = 'border: none;';
-}) 
-left.addEventListener('mouseover' , function (){
-    left.style = 'border: 1px #046FB3 solid;';
-}) 
-left.addEventListener('mouseout' , function (){
-    left.style = 'border: none;';
-}) 
-
+right.addEventListener('click', function (){
+    left.style = 'background-color: white;'
+    right.style = 'background-color: transparent;'
+})
+left.addEventListener('click', function (){
+    right.style = 'background-color: white;'
+    left.style = 'background-color: transparent;'
+})

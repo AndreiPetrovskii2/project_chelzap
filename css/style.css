@@ -1226,6 +1226,9 @@ footer {
     position: absolute;
     z-index: 0;
 }
+.card_flex-text-p {
+    font-size: 16px;
+}
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 
 /*----------------------------------------------header----------------------------------------------------*/
@@ -1589,7 +1592,11 @@ footer {
     }
 }
 @media (max-width:767px) {
+    .dignities {
+        height: 283px;
+    }
     .swiper-wrapper {
+        height: 250px !important;
         flex-wrap: nowrap;
     }
     .swiper-slide {
@@ -2486,7 +2493,6 @@ footer {
   }
 
   .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;

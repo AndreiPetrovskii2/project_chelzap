@@ -2509,8 +2509,3 @@ footer {
         width: auto;
     }
   }
-  @media (max-width:767px) {  
-    .dignities_desktop .swiper-wrapper .card {
-        width: auto;
-    }
-  }

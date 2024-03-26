@@ -593,7 +593,23 @@
     if (window.innerWidth < 768) {
         initSwiper();
     }
-  </script>
+</script>
+<script>
+    function initSwiper2() {
+        var swiper2 = new Swiper(".mySwiper2", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 16,
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true,
+            },
+        });
+    }
+    if (window.innerWidth < 768) {
+        initSwiper();
+    }
+</script>
 <script src="./js/fff/cars_steps.js"></script>
 <script src="./js/card_steps.js"></script>
 <script src="./js/input_mask_768.js"></script>

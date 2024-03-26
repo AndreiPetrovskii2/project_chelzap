@@ -25,7 +25,7 @@ left.addEventListener('click' ,function(){
 
 right.addEventListener('mousedown' , function (){
     left.style = 'background: white;'
-    right.style = 'border: 2px solid; border-radius: 0px;background: transparent;';
+    right.style = 'border: 2px solid; border-radius: 0px;background: #EEF3F6;';
 })
 left.addEventListener('mousedown' , function (){
     left.style = 'background: transparent;'
@@ -34,7 +34,7 @@ left.addEventListener('mousedown' , function (){
 })
 right.addEventListener('mouseup' , function (){
     left.style = 'background: white;'
-    right.style = 'border: 0px solid; border-radius: 4px;background: transparent;';
+    right.style = 'border: 0px solid; border-radius: 4px;background: #EEF3F6';
 })
 left.addEventListener('mouseup' , function (){
     left.style = 'background: transparent;'

@@ -1589,6 +1589,12 @@ footer {
     }
 }
 @media (max-width:767px) {
+    .swiper-wrapper {
+        flex-wrap: nowrap;
+    }
+    .swiper-slide {
+        width: 256px !important;
+    }
     .card {
         height: 248px;
         width: 256px;
@@ -2474,14 +2480,12 @@ footer {
 }
 /*----------------------------------------------footer----------------------------------------------------*/
 .swiper {
-    margin-left: inherit;
-    margin-left: 40px;
+    margin-top: 48px;
     width: 100%;
     height: 100%;
   }
 
   .swiper-slide {
-    width: 256px;
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -2489,13 +2493,20 @@ footer {
     justify-content: center;
     align-items: center;
   }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  .swiper-slide {
+    width: 383.68px;
   }
   .swiper-wrapper {
-    gap: 20px;
+    justify-content: space-between;
+    row-gap: 24px;
+  }
+  @media (min-width:767px) {  
+    .dignities_desktop .swiper-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .dignities_desktop .swiper-wrapper .swiper-slide {
+        width: auto;
+    }
   }

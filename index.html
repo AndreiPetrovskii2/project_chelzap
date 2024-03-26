@@ -152,10 +152,12 @@
             </div>
         </div>
         <div class="container">
-            <div id="shadow_dignities" class="dignities">
+            <div class="dignities">
                 <h2 class="dignities_p">Удобство, Надежность, Эффективность</h2>
-                <div id="dignities_cards" class="dignities_cards">
-                    <div class="card">  
+                <div class="swiper mySwiper dignities_desktop">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card">  
                         <div class="container_card">
                             <div class="card_flex">
                             <div class="number"><p>1</p></div>
@@ -163,51 +165,57 @@
                             <p>Подадим эвакуатор для транспортных средств (мотоциклов, легковых авто, микроавтобусов) весом до 5 тонн от 15 минут</p></div>
                         </div>
                     </div>
-                    <div class="card">
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">  
+                            <div class="container_card">
+                                <div class="card_flex">
+                                <div class="number"><p>1</p></div>
+                                <div class="card_flex-text">Быстрая подача</div>
+                                <p>Подадим эвакуатор для транспортных средств (мотоциклов, легковых авто, микроавтобусов) весом до 5 тонн от 15 минут</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">  
+                            <div class="container_card">
+                                <div class="card_flex">
+                                <div class="number"><p>1</p></div>
+                                <div class="card_flex-text">Быстрая подача</div>
+                                <p>Подадим эвакуатор для транспортных средств (мотоциклов, легковых авто, микроавтобусов) весом до 5 тонн от 15 минут</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">  
+                            <div class="container_card">
+                                <div class="card_flex">
+                                <div class="number"><p>1</p></div>
+                                <div class="card_flex-text">Быстрая подача</div>
+                                <p>Подадим эвакуатор для транспортных средств (мотоциклов, легковых авто, микроавтобусов) весом до 5 тонн от 15 минут</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card">  
+                            <div class="container_card">
+                                <div class="card_flex">
+                                <div class="number"><p>1</p></div>
+                                <div class="card_flex-text">Быстрая подача</div>
+                                <p>Подадим эвакуатор для транспортных средств (мотоциклов, легковых авто, микроавтобусов) весом до 5 тонн от 15 минут</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide"><div class="card">  
                         <div class="container_card">
                             <div class="card_flex">
-                                <div class="number"><p>2</p></div>
-                                <div class="card_flex-text">Удобно оплачивать</div>
-                                <p>Оплачивайте любым способом оплаты: наличными, безналичной оплатой или картой. Наши тарифы в среднем на 20% ниже, чем у большинства конкурентов.</p>
-                            </div>
+                            <div class="number"><p>1</p></div>
+                            <div class="card_flex-text">Быстрая подача</div>
+                            <p>Подадим эвакуатор для транспортных средств (мотоциклов, легковых авто, микроавтобусов) весом до 5 тонн от 15 минут</p></div>
                         </div>
+                    </div></div>
                     </div>
-                    <div class="card"> 
-                        <div class="container_card">
-                            <div class="card_flex2">
-                                <div class="number"><p>3</p></div>
-                                <div class="card_flex-text">Круглосуточно</div>
-                                <p>Компания работает без выходных. Принимаем заявки на транспортировку круглосуточно.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="container_card">
-                            <div class="card_flex">
-                                <div class="number"><p>4</p></div>
-                                <div class="card_flex-text">Надежные руки</div>
-                                <p>Опытные водители погрузят автомобиль без поломок с любой грузоподьемностью. После доставки авто предоставят документы.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="container_card">
-                            <div class="card_flex">
-                                <div class="number"><p>5</p></div>
-                                <div class="card_flex-text">Гарантии</div>
-                                <p>Безопасность перевозки вашего автомобиля застрахована. Гарантируем погрузку и транспортируовку авто без повреждений и поломок.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="container_card">
-                            <div class="card_flex3">
-                                <div class="number"><p>6</p></div>
-                                <div class="card_flex-text">Доступная цена</div>
-                                <p>Цены на услуги “перевезти авто” минимальные и одни из самых дешевых. Стоимость эвакуации ТС от 990 руб. Просто позвоните и получите расчет.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
@@ -633,15 +641,20 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 2,
-      spaceBetween: 30,
-      centeredSlides: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
+    function initSwiper() {
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 16,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    }
+    if (window.innerWidth < 768) {
+        initSwiper();
+    }
   </script>
 <script src="./js/fff/cars_steps.js"></script>
 <script src="./js/card_steps.js"></script>

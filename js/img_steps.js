@@ -1,4 +1,4 @@
-const steps_container = document.getElementById('dignities_cards');
+const steps_container = document.getElementById('reviews_imgs2');
 let pressed = false;
 let startX = 0;
 

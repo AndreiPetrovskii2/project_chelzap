@@ -711,9 +711,15 @@ a {
     border: 1px #046FB3 solid;
 }
 .reviews_imgs {
+    overflow-x: auto;
+    scroll-snap-type: x;
+    user-select: none;
     margin-top: 56px;
     display: flex;
     justify-content: space-between;
+}
+.reviews_imgs::-webkit-scrollbar {
+    display: none;
 }
 .reviews_imgs div {
     display: flex;
@@ -1308,6 +1314,9 @@ footer {
 }
 .gruz {
     left: 3px !important;
+}
+.reviews_imgs320px {
+    display: none;
 }
 /*----------------------------------------------АДАПТАЦИЯ----------------------------------------------------*/
 
@@ -2279,9 +2288,10 @@ footer {
         width: 100%;
     }
     .reviews_imgs1 {
-        border-radius: 24px;
-        width: 256px;
-        height: 220px;
+        display: none;
+    }
+    .reviews_imgs320px {
+        display: inline;
     }
     .reviews_imgs2 {
         border-radius: 24px;
@@ -2299,13 +2309,17 @@ footer {
         height: 220px;
     }
     .reviews_imgs div {
+        gap: 16px;
         width: 538px;
         display: flex;
         flex-direction: row;
     }
+    .img1 {
+        width: 256px;
+    }
     .reviews_imgs {
+        gap: 16px;
         margin-top: 21px;
-        width: 820px;
     }
     .reviews_slider {
         height: 518px;

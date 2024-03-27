@@ -596,7 +596,7 @@ a {
     background-color: #EEF3F6;
 }
 .reviews_slider {
-    height: 418px;
+    height: 264px;
 }
 .reviews_slider h2 {
     padding-top: 72px;
@@ -1979,7 +1979,7 @@ footer {
         margin-top: 40px;
     }
     .services_cars {
-        margin-top: 79px;
+        margin-top: 20px;
     }
     .container_card3 {
         width: 241px;
@@ -2237,20 +2237,20 @@ footer {
         padding-top: 56px;
         font-size: 32px;
     }
-    .reviews_slider {
-        height: 376px;
-    }
     .buttons {
         margin-top: 48px;
     }
     .rewiws_textp p {
         line-height: 22.4px;
     }
+    .reviews_imgs {
+        margin-top: 40px;
+    }
 }
 @media (max-width:767px) {
     .reviews {
         padding-left: 16px;
-        margin-top: 99px;
+        margin-top: 64px;
     }
     .reviews_slider h2 {
         padding-top: 39px;
@@ -2488,12 +2488,26 @@ footer {
     }
 }
 @media (max-width:1300px) {
+    .button_slider h2 {
+        font-size: 32px !important;
+        font-weight: 700 !important;
+    }
     .swiper2 {
         row-gap: 149px;
     }
 }
 
 /*----------------------------------------------footer----------------------------------------------------*/
+.reviews_slider {
+    margin-top: 32px;
+}
+.button_slider {
+    align-items: flex-end;
+}
+.button_slider h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
 .swiper {
     margin-top: 48px;
     width: 100%;
@@ -2521,8 +2535,15 @@ footer {
   }
   .mySwiper2 .swiper-wrapper .swiper-slide {
     width: 282px;
-}
+  }
   @media (min-width:767px) {  
+    .mySwiper3 .swiper-wrapper .swiper-slide{
+        width: 384px;
+        height: 264px;
+    }
+    .mySwiper3 .swiper-wrapper {
+        gap: 24px;
+    }
     .dignities_desktop .swiper-wrapper {
         display: flex;
         justify-content: space-evenly;
@@ -2538,7 +2559,25 @@ footer {
     }
   }
   @media (max-width:767px) {
+    .button_slider h2 {
+        line-height: 34.13px;
+        font-size: 28px !important;
+    }
+    .mySwiper3 .swiper-wrapper {
+        gap: 24px;
+    }
+    .mySwiper3 .swiper-wrapper {
+        height: 333px !important;
+    }
+    .swiper .swiper-wrapper {
+        padding-left: 16px !important;
+    }
+    .swiper3 {
+        width: 100%;
+        height: 100%;
+    }
     .swiper2 {
+        padding-left: 16px;
         width: 100%;
         height: 100%;
     }

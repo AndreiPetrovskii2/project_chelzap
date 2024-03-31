@@ -1349,17 +1349,6 @@ footer {
         padding-left: 40px;
         padding-right: 40px;
     }
-    .header_menu-navigation {
-        display: none;
-    }
-    .drop-down {
-        display: flex;
-    }
-    .phone_768_320 {
-        width: 278px;
-        display: flex;
-        justify-content: space-between;
-    }
     .phone2 {
         margin-top: 61px;
     }
@@ -1371,7 +1360,6 @@ footer {
         padding-left: 8px;
     }
     .logo_2 {
-        border-radius: 0px;
         height: 64px;
     }
     .img_1 {
@@ -1397,7 +1385,23 @@ footer {
         height: 64px;
     }
 }
+@media (max-width:1198px) {
+    .header_menu-navigation {
+        display: none;
+    }
+    .drop-down {
+        display: flex;
+    }
+    .phone_768_320 {
+        width: 278px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
 @media (max-width:767px) {
+    .logo_2 {
+        border-radius: 0px;
+    }
     .header2 {
         border-radius: 0px;
         width: 100%;

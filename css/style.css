@@ -1683,7 +1683,7 @@ footer {
 }
 @media (max-width:767px) {
     .dignities {
-        height: 383px;
+        height: 396px;
     }
     .swiper-wrapper {
         height: 250px !important;
@@ -1989,7 +1989,7 @@ footer {
         margin-top: 40px;
     }
     .services_cars {
-        margin-top: 20px;
+        margin-top: 64px;
     }
     .container_card3 {
         width: 241px;

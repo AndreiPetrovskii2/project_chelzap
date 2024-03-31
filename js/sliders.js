@@ -40,6 +40,11 @@ if (window.innerWidth < 768) {
     initSwiper2();
     initSwiper();
 }
+else {
+    if (initSwiper) {
+        initSwiper.destroy();
+    }
+}
 right.addEventListener('mousedown' , function (){
     right.style = 'border: 2px solid; border-radius: 0px;;';
 })

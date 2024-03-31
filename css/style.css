@@ -727,6 +727,7 @@ a {
     justify-content: space-between;
 }
 .map {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     height: 504px;
@@ -2622,4 +2623,29 @@ footer {
         justify-content: space-evenly;
         flex-wrap: nowrap;
       }
+  }
+
+
+  /*----------------------------------------------map----------------------------------------------------*/
+  .map_768px {
+    display: none;
+  }
+  .map_320px {
+    display: none;
+  }
+  @media (max-width:1200px) {   
+    .map_768px {
+        display: inline;
+    }
+    .map_full {
+        display: none;
+    }
+  }
+  @media (max-width:500px) {
+    .map_768px {
+        display: none;
+    }
+    .map_320px {
+        display: inline;
+    }
   }

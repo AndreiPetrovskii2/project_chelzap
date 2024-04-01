@@ -1496,7 +1496,7 @@ footer {
         width: 100%;
     }
 }
-@media (max-width:1300px) {
+@media (max-width:1199px) {
     .img_none {
         display: none;
     }
@@ -2135,7 +2135,14 @@ footer {
 
 
 /*----------------------------------------------cars----------------------------------------------------*/
-@media (max-width:1300px) {
+@media (max-width:1300px) { 
+    .cars {
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 1030px;
+    }
+}
+@media (max-width:1199px) {
     .mySwiper2 .swiper-wrapper .swiper-slide {
         width: 213.33px !important;
     }
@@ -2186,10 +2193,7 @@ footer {
     }
     .cars {
         margin-top: 78px;
-        height: 952px;
-    }
-    .cars_cards-first {
-        width: 688px;
+        height: 690px;
     }
     .cars_cards {
         align-items: center;
@@ -2200,6 +2204,11 @@ footer {
     .card_price-cars {
         font-size: 18px;
         font-weight: 500;
+    }
+}
+@media (max-width:1005px) {
+    .cars {
+        height: 952px;
     }
 }
 @media (max-width:767px) {
